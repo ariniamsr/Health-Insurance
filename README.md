@@ -6,6 +6,7 @@ Salah satu perusahaan asuransi yang berfokus ke penjualan 'Asuransi Kesehatan' i
 EDA (Exploratory Data Analysis), dalam proses ini akan dilakuakn 4 tahap yakni melihat deskripsi statistik, analisis *univariate*, analisis *multivariate*, dan mengekstraksi business insight. Proses ini sangatlah penting sebelum membangun *Machine Learning*. Untuk memahami karakteristik data, dan hal-hal yang perlu
 kita lakukan agar data tersebut dapat digunakan dilakukan proses EDA. 
  1. Univariate Analysis
+Subplot
 ![subplot](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/Untitled.png)
 Hasil Observasi =<br>
 * Age : Distribusi data tidak normal. Umur pelanggan bervarian dari 20 tahun hingga 85 tahun, dengan kebanyakan pelanggan berusia antara 24 - 49 tahun.<br>
@@ -17,6 +18,7 @@ Hasil Observasi =<br>
 * Vintage : Distribusi data normal, dengan median di nilai ± 151.<br>
 * Response : Merupakan boolean. Data tidak terdistribusi dengan normal. Kebanyakan pelanggan terkategori 0 (Tidak berminat) <br>
  2. Multivariate Analysis
+Heatmap
 ![heatmap](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/heatmap.png)
 Hasil Observasi =<br>
 * Age - Response<br>
@@ -36,9 +38,23 @@ Berkolerasi negatif. Jika pelanggan belum memiliki ‘Asuransi Kendaraan pelangg
 * Age - Policy_Sales_Channel<br>
 Korelasi negative. Kode media mengontak orang yang cenderung tua menggunakan kode media yang berada di kode kecil.
 
+Pairplot
+![pairplot](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/pairplot.png)
+Hasil Observasi =
+* Orang-orang yang sebelumnya belum pernah menggunakan asuransi kendaraan di umur 35 sampai 45 dan juga di umur 60 sampai 65 cenderung menjawab response 1.
+* Orang-orang yang mempunyai driving license di umur 35 sampai 45 dan juga di umur 60 sampai 65 cenderung menjawab response 1.
 
- 3.   
- 4. 
+ 3.   Business Insight
+* Distribution of Customer Age and Vehicle Insurance Interest
+![age vs interest](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/BI%20Age%20vs%20insurance.png)
+Dilihat dari grafik diatas didapatkan insight bahwa pelanggan asuransi kesehatan paling banyak adalah usia antara 20 sampai 30 tahun, sedangkan peminat Asuransi kendaraan terbanyak rata-rata di usia 40 sampai 50 tahun.
+
+
+
+
+
+ 4.   
  5. 
+ 6. 
 
 Proses ini dapat membantu mendeteksi kesalahan dalam data, medeteksi data yang perlu di *handling*, melihat korelasi dan pola data, serta menemukan wawasan penting dalam data. Sehingga ketika memasukki proses pembuatan *Machine Learning* lebih efisien dan lebih tepat sasaran (akurat).
