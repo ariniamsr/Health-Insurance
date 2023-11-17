@@ -46,15 +46,23 @@ Hasil Observasi =
 
  3.   Business Insight
 * Distribution of Customer Age and Vehicle Insurance Interest
-![age vs interest](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/BI%20Age%20vs%20insurance.png)
+![age vs interest](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/BI%20Age%20vs%20insurance.png) <br>
 Dilihat dari grafik diatas didapatkan insight bahwa pelanggan asuransi kesehatan paling banyak adalah usia antara 20 sampai 30 tahun, sedangkan peminat Asuransi kendaraan terbanyak rata-rata di usia 40 sampai 50 tahun.
 
+* response vs usia kendaraan
+![response vs kendaraan usia](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/BI%20usia%20kendaraan%20vs%20respon.png) <br>
+Berdasarkan dari umur kendaraan pelanggan, mayoritas pelanggan memiliki kendaraan yang berumur 1-2 tahun sebanyak 200.316 pelanggan, diikuti dengan kendaraan <1 tahun sebanyak 164.786 pelanggan, dan kendaraan >2 tahun sebanyak 16.007 pelanggan. <br>
+Dapat dilihat berdasarkan rasio pelanggan yang memiliki kendaraan 1-2 tahun lebih banyak tertarik terhadap Asuransi Kendaraan dibandingkan pelanggan lain.
 
 
+* response vs vintage
+![response vs vintage](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/vintage%20vs%20response.png) <br>
+Dari grafik diatas, pelanggan yang bergabung dengan rentan waktu 5-8 bulan memiliki ketertarikan terhadap produk ‘Asuransi Kendaraan’ yang cukup banyak sekitar 19281 pelanggan dibandingkan pelanggan yang bergabung dengan rentan waktu lebih dari 9 bulan (lebih lama bergabung) sekitar 9391 pelanggan Akan tetapi berdasarkan rasio persentase masing-masing vintage masih sangat kecil hanya 12% setiap vintage.
 
 
- 4.   
- 5. 
- 6. 
+* response vs gender
+![response vs gender](https://github.com/ariniamsr/Health-Insurance/blob/main/Pict/respon%20vs%20gender.png) <br>
+Berdasarkan dari data, mayoritas pelanggan merupakan berjenis kelamin laki-laki sebesar 206.089 (54,08%) orang dari total 381.109 orang, sedangkan 175.020 (45.92%) adalah perempuan.<br>
+Berdasarkan gender ketertarikan terhadap produk ‘Asuransi Kendaraan’ kebanyakan laki-laki 28.525 (13,84% respon menunjukan ketertarikan) sedangkan, perempuan 18.185 (10.39% respon menunjukan ketertarikan). Lebih banyak laki-laki tertarik terhadap ‘Asuransi Kendaraan’.
 
-Proses ini dapat membantu mendeteksi kesalahan dalam data, medeteksi data yang perlu di *handling*, melihat korelasi dan pola data, serta menemukan wawasan penting dalam data. Sehingga ketika memasukki proses pembuatan *Machine Learning* lebih efisien dan lebih tepat sasaran (akurat).
+** Proses ini dapat membantu mendeteksi kesalahan dalam data, medeteksi data yang perlu di *handling*, melihat korelasi dan pola data, serta menemukan wawasan penting dalam data. Sehingga ketika memasukki proses pembuatan *Machine Learning* lebih efisien dan lebih tepat sasaran (akurat). **
